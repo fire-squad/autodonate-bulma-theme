@@ -32,5 +32,5 @@ print(some_function(3, 4))
 ## Спасибо
 
 Этот проект был сгенерирован с помощью [`autodonate-plugin-template`](https://github.com/fire-squad/autodonate-plugin-template).
-Текущая версия примера: [{% gitcommit %}](https://github.com/fire-squad/autodonate-plugin-template/tree/{% gitcommit %}).
-Смотрите что [обновилось](https://github.com/fire-squad/autodonate-plugin-template/compare/{% gitcommit %}...master) с того времени.
+Текущая версия примера: [472c505285015fd44a116e6b4f705df1418bda05](https://github.com/fire-squad/autodonate-plugin-template/tree/472c505285015fd44a116e6b4f705df1418bda05).
+Смотрите что [обновилось](https://github.com/fire-squad/autodonate-plugin-template/compare/472c505285015fd44a116e6b4f705df1418bda05...master) с того времени.
