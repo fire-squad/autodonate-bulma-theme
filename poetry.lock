@@ -40,6 +40,34 @@ tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)"
 tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "cloudpickle"]
 
 [[package]]
+name = "autodonate"
+version = "0.1.0a0"
+description = "Бесплатный и модульный сайт авто-доната для майнкрафт серверов."
+category = "main"
+optional = false
+python-versions = ">=3.10,<4.0"
+
+[package.dependencies]
+autodonate-placeholder-plugin = ">=0.1.0,<0.2.0"
+Django = ">=4.0.2,<5.0.0"
+mcrcon-ipv6 = ">=0.1.2,<0.2.0"
+poetry = ">=1,<2"
+PyYAML = ">=6.0,<7.0"
+requests = ">=2.27.1,<3.0.0"
+
+[[package]]
+name = "autodonate-placeholder-plugin"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = ">=3.10,<4.0"
+
+[package.dependencies]
+Django = ">=4.0.2,<5.0.0"
+toml = ">=0.10.2,<0.11.0"
+
+[[package]]
 name = "babel"
 version = "2.9.1"
 description = "Internationalization utilities"
@@ -453,6 +481,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "mcrcon-ipv6"
+version = "0.1.2"
+description = "mcrcon with IPv6 support"
+category = "main"
+optional = false
+python-versions = ">=3.10,<4.0"
+
+[[package]]
 name = "mistune"
 version = "0.8.4"
 description = "The fastest markdown parser in pure Python"
@@ -726,7 +762,7 @@ python-versions = "*"
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -980,7 +1016,7 @@ pbr = ">=2.0.0,<2.1.0 || >2.1.0"
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -1070,7 +1106,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "232eac1536012a6fe06b061892f7ec00333de2cbc03be7763a7e92d6cdd03c04"
+content-hash = "e7f91a22b6fc7870078e3369d9e2f8c73ee3c8fae95299e7a9d72fb504f6ba41"
 
 [metadata.files]
 alabaster = [
@@ -1088,6 +1124,14 @@ atomicwrites = [
 attrs = [
     {file = "attrs-21.4.0-py2.py3-none-any.whl", hash = "sha256:2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4"},
     {file = "attrs-21.4.0.tar.gz", hash = "sha256:626ba8234211db98e869df76230a137c4c40a12d72445c45d5f5b716f076e2fd"},
+]
+autodonate = [
+    {file = "autodonate-0.1.0a0-py3-none-any.whl", hash = "sha256:20364951c8ce93583d51a6b700aff2493d63f1a8327ba90bdd44bb7057e73657"},
+    {file = "autodonate-0.1.0a0.tar.gz", hash = "sha256:90f8a79f7a37c82e7ba14484260dd3dcb166d393a87641f1c4d5197406642f8f"},
+]
+autodonate-placeholder-plugin = [
+    {file = "autodonate-placeholder-plugin-0.1.0.tar.gz", hash = "sha256:fa5e4b7fa788b4f399be8adb77bba241c61fadd933835c6f7694e7c4c772e1a1"},
+    {file = "autodonate_placeholder_plugin-0.1.0-py3-none-any.whl", hash = "sha256:37428abd1f3c8c118af116f8f8a2e29411d38a267f4b886ffd9de0c7878a8a95"},
 ]
 babel = [
     {file = "Babel-2.9.1-py2.py3-none-any.whl", hash = "sha256:ab49e12b91d937cd11f0b67cb259a57ab4ad2b59ac7a3b41d6c06c0ac5b0def9"},
@@ -1384,6 +1428,10 @@ markupsafe = [
     {file = "MarkupSafe-2.1.0-cp39-cp39-win32.whl", hash = "sha256:e6f7f3f41faffaea6596da86ecc2389672fa949bd035251eab26dc6697451d05"},
     {file = "MarkupSafe-2.1.0-cp39-cp39-win_amd64.whl", hash = "sha256:b8811d48078d1cf2a6863dafb896e68406c5f513048451cd2ded0473133473c7"},
     {file = "MarkupSafe-2.1.0.tar.gz", hash = "sha256:80beaf63ddfbc64a0452b841d8036ca0611e049650e20afcb882f5d3c266d65f"},
+]
+mcrcon-ipv6 = [
+    {file = "mcrcon-ipv6-0.1.2.tar.gz", hash = "sha256:1af1d014c41d4cfa3d60f47ad3753acc087dbd1e8a560fb9ca4ad99743eda35d"},
+    {file = "mcrcon_ipv6-0.1.2-py3-none-any.whl", hash = "sha256:0006616cbd52867b4041e8803b0c1d3436822ebd9509ca3db90e34425e0b2df0"},
 ]
 mistune = [
     {file = "mistune-0.8.4-py2.py3-none-any.whl", hash = "sha256:88a1051873018da288eee8538d476dffe1262495144b33ecb586c4ab266bb8d4"},
