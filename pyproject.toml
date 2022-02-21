@@ -19,7 +19,7 @@ repository = "https://github.com/fire-squad/autodonate-bulma-theme"
 python = "^3.10"
 poetry = "^1"
 Django = "^4.0.2"
-autodonate = "^0.1.0-alpha.0"
+autodonate = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
