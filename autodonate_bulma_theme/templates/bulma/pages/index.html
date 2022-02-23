@@ -1,0 +1,266 @@
+{% extends 'bulma/base.html' %}
+{% load static %}
+{% block body %}
+  <section class="hero" style="background-color: #353535;">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-two-fifths is-align-items-center">
+            <p class="title is-1 has-text-white">Ваш лучший сервер</p>
+            <p class="subtitle has-text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In nulla quam, gravida eget eros at, scelerisque vulputate erat.</p>
+            <a href="#donations"><button class="button is-white is-large">Задонатить</button></a>
+          </div>
+          <div class="column">
+            <img src="{% static "bulma/img/landing/3.png" %}">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="hero" style="background-color: #f6f6f6">
+    <div class="hero-body">
+      <p class="title is-2 has-text-centered">Отзывы</p>
+      <div class="columns">
+        <div class="column">
+          <div class="columns">
+            <div class="column is-2">
+              <img class="comment-avatar" src="https://cdn.discordapp.com/avatars/742252582554304632/5da1f194e5fb82a8b4d76a1ecb9076f8.png?size=64">
+            </div>
+            <div class="column">
+              <blockquote class="title is-large">"Йа люблю этат сервир и наиграл на нём палтара месица анланина."</blockquote>
+              <p>
+                <strong>sowet</strong><br>
+                Олд сервера.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns">
+            <div class="column is-2">
+              <img class="comment-avatar" src="https://cdn.discordapp.com/avatars/877819901199396894/b39e12f4f2319b66191452bfed20be24.png?size=64">
+            </div>
+            <div class="column">
+              <blockquote class="title is-large">"За СССР."</blockquote>
+              <p>
+                <strong>За СССР</strong><br>
+                Каммунист.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="columns">
+            <div class="column is-2">
+              <img class="comment-avatar" src="https://cdn.discordapp.com/avatars/823030076093890592/9b3eefbf905c92bd09d6427d00606c9e.png?size=64">
+            </div>
+            <div class="column">
+              <blockquote class="title is-large">"Дай криатив."</blockquote>
+              <p>
+                <strong>Pepugovich</strong><br>
+                Олд, глава Ормандии.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns">
+            <div class="column is-2">
+              <img class="comment-avatar" src="https://cdn.discordapp.com/avatars/447814072549769228/f7a34e55735ec73db1ed09cf22a36719.png?size=64">
+            </div>
+            <div class="column">
+              <blockquote class="title is-large">"говно."</blockquote>
+              <p>
+                <strong>Markerere</strong><br>
+                Олд, Модератор.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="hero" style="background-color: #353535;">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-two-fifths">
+            <img src="{% static "bulma/img/landing/4.png" %}">
+          </div>
+          <div class="column">
+            <p class="title is-2" style="color: white;">Тут что то ещё...</p>
+            <p class="subtitle" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In nulla quam, gravida eget eros at, scelerisque vulputate erat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="hero" id="donations" style="background-color: #f6f6f6">
+    <div class="hero-body">
+      <p class="title is-2 has-text-centered">Донат</p>
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <article>
+              <img src="https://www.pngkey.com/png/full/45-455945_vip-party-weekend.png">
+              <p class="title has-text-centered">VIP</p>
+              <p class="subtitle has-text-centered">С VIP вам доступны: Creative, Fly</p>
+              <div class="columns">
+                <div class="column">
+                  <button class="button is-fullwidth is-info">Возможности</button>
+                </div>
+                <div class="column">
+                  <button class="button is-fullwidth is-success">Купить за 25р</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

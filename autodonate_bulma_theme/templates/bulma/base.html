@@ -1,0 +1,28 @@
+{% load static %}
+{% spaceless %}
+<!DOCTYPE html>
+<html lang="ru" class="has-navbar-fixed-top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title|default:"Title" }} - Autodonate</title>
+  <link rel="stylesheet" href="{% static 'bulma/css/bulma.css' %}">
+  <link rel="stylesheet" href="{% static 'bulma/css/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'bulma/css/fonts.css' %}">
+  <link rel="stylesheet" href="{% static 'bulma/css/style.css' %}">
+</head>
+<body>
+  {% include 'bulma/header.html' %}
+
+  {% block body %}
+    <h1>Block body</h1>
+  {% endblock %}
+
+  {% include 'bulma/footer.html' %}
+
+  <script src="{% static 'bulma/js/wow.js' %}"></script>
+  <script src="{% static 'bulma/js/jquery.js' %}"></script>
+  <script src="{% static 'bulma/js/main.js' %}"></script>
+</body>
+</html>
+{% endspaceless %}
