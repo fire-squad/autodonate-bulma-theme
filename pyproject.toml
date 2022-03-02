@@ -18,7 +18,7 @@ repository = "https://github.com/fire-squad/autodonate-bulma-theme"
 [tool.poetry.dependencies]
 python = "^3.10"
 poetry = "^1"
-Django = "^4.0.2"
+Django = "^4.0.3"
 autodonate = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
