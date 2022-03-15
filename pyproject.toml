@@ -23,7 +23,7 @@ autodonate = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
-mypy = "^0.931"
+mypy = "^0.941"
 
 safety = "^1.10"
 
