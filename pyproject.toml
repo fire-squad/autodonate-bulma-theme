@@ -22,7 +22,7 @@ Django = "^4.0.3"
 autodonate = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
-black = "^22.1.0"
+black = "^22.3.0"
 mypy = "^0.931"
 
 safety = "^1.10"
